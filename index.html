@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 3</title>
+<link href="style.css" rel="stylesheet">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+      $("span").click(function(){
+        $(".here").toggle();
+      });
+    });
+</script>
+</head>
+<body>
+
+<label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label>
+    <h4>Animation works when switch is on.</h4>
+<div class="here">
+      <ul class="drops">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+      </ul>
+</div>
+</body>
+</html>
